@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/MinGW/include/**",
+                "C:/MinGW/include/SDL2"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [
+                "-I C:/MinGW/include/SDL2",
+                "-L C:/MinGW/lib"
+            ]
+        }
+    ],
+    "version": 4
+}
