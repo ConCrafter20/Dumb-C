@@ -20,7 +20,8 @@
             "compilerArgs": [
                 "-I C:/MinGW/include/SDL2",
                 "-L C:/MinGW/lib"
-            ]
+            ],
+            "configurationProvider": "ms-vscode.makefile-tools"
         }
     ],
     "version": 4
